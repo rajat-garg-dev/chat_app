@@ -27,7 +27,7 @@ export default function Chat({ socket, name }) {
   }, [socket]);
   console.log(messagelist, "message ");
   return (
-    <div className="w-[100%] h-[100%] flex flex-col justify-between  bg-black">
+    <div className="w-[300px] max-md:w-[100%] h-[100%] flex flex-col justify-between  bg-black">
       {/* Header */}
       <div className="bg-[#f6265a] max-md:p-2 h-[5vh] px-2 flex gap-2 ">
         <img height={32} width={32} src={chaticon} />
