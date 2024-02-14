@@ -61,7 +61,7 @@ export default function Chat({ socket, name }) {
         })}
       </ScrollToBottom>
 
-      {/* footer */}
+      {/* footer  */}
       <div className="w-[100%] h-[5vh] gap-2 px-2 flex ">
         <input
           className="w-[100%] px-2 rounded-[4px] py-[1px]"
