@@ -29,7 +29,7 @@ export default function Chat({ socket, name }) {
   return (
     <div className="w-[300px] max-md:w-[100%] h-[100%] flex flex-col justify-between  bg-black">
       {/* Header */}
-      <div className="bg-[#f6265a] max-md:p-2 h-[5vh] px-2 flex gap-2 ">
+      <div className="bg-[#f6265a]  h-[5vh] px-2  flex gap-2 ">
         <img height={32} width={32} src={chaticon} />
         <p className="font-[800] text-white text-[18px]">Live Chat</p>
       </div>
